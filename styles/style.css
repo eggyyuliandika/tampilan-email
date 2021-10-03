@@ -1,0 +1,557 @@
+* {
+  font-family: sans-serif, "Roboto";
+}
+
+form {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div span {
+  padding-bottom: 2px;
+  padding-left: 10px;
+}
+
+.form-iconmenu {
+  height: 20px;
+}
+
+.form-iconprofile {
+  height: 30px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.desc-utama {
+  color: grey;
+  margin: 20px 0px;
+}
+
+.massage {
+  margin: 0 0 18px 0;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+}
+
+.massage img {
+  padding-top: 3px;
+}
+
+.massage-sosial {
+  margin: 0 0 18px 0;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.3fr;
+}
+
+.massage-sosial img {
+  padding-left: 4px;
+}
+
+.massage-sosial h5 {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.desc-massage-sosial {
+  padding-left: 12px;
+  font-size: 12px;
+}
+
+.notif-massage-sosial {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 0px;
+  height: fit-content;
+  padding: 6px 0;
+  border-radius: 20px;
+  background-color: rgb(36, 111, 209);
+}
+
+.notif-massage-promosi {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 0px;
+  height: fit-content;
+  padding: 6px 0;
+  border-radius: 20px;
+  background-color: green;
+}
+
+.desc-massage {
+  padding-left: 10px;
+}
+
+.desc-massage p {
+  font-size: 13px;
+  margin: 0 0 4px 0;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 4px 0px;
+}
+
+.subdesc-massage {
+  font-size: 12px;
+}
+
+.subdesc-massage p {
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.subdesc-massage button {
+  padding-top: 14px;
+}
+
+.primarydesc-massage {
+  font-weight: 700;
+}
+
+p {
+  margin: 0px;
+}
+
+.user {
+  margin-left: 14px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.1fr 1fr 0.2fr;
+}
+
+.profile-user {
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  border-radius: 100%;
+  border: transparent;
+  height: 40px;
+  width: 40px;
+  background-image: url(../public/profile.png);
+}
+
+.nav-account {
+  display: flex;
+  padding: 0 0 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.google-img img {
+  background-color: none;
+}
+
+.profile-user img {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  float: right;
+  margin-top: 20px;
+  font-size: 11px;
+  height: 22px;
+  padding: 0px;
+  color: wheat;
+  border-radius: 20px;
+}
+
+.desc-user p {
+  font-size: 12px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+}
+
+.primarydesc-user {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.user h5 {
+  margin: 4px 10px;
+}
+
+.user-next h5 {
+  margin: 4px 10px;
+}
+
+.user-next {
+  display: grid;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 14px;
+  grid-template-columns: 0.1fr 1fr 0.2fr;
+}
+
+.desc-account {
+  padding: 10px 20px;
+  border: solid 1px grey;
+  color: rgb(56, 53, 53);
+  margin-left: 60px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.user-account {
+  border-top: solid 1px grey;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 0.3;
+}
+
+.account {
+  margin-bottom: 20px;
+  border-bottom: solid 1px black;
+}
+
+.user1 {
+  margin-top: 28px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.1fr 1fr 0.2fr;
+}
+
+.user1 h5 {
+  margin: 4px 10px;
+}
+
+.user1 img {
+  padding-top: 8px;
+}
+
+.user-add {
+  margin: 28px 0 10px 14px;
+  display: grid;
+  position: relative;
+  gap: 20px;
+  grid-template-columns: 0.1fr 1fr;
+  align-items: center;
+}
+
+.end-user {
+  display: flex;
+  margin: 20px 0 0 0;
+  border-top: solid 1px black;
+  padding: 20px 20px;
+  font-weight: 600;
+  font-size: 12px;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px black;
+  padding: 10px 0;
+}
+
+.primarydesc-navbar {
+  font-size: 24px;
+}
+
+.primarydesc-navbar span {
+  align-items: center;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgb(223, 221, 221);
+  padding: 3px;
+  margin: 10px;
+}
+
+.navbar-desc {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-desc {
+  display: grid;
+  padding: 10px;
+  align-items: center;
+  grid-template-columns: 0.2fr 1fr 0.4fr;
+}
+
+.content-desc h4 {
+  margin: 4px 0 0 0;
+}
+
+.content-desc-user {
+  margin-left: 10px;
+}
+
+.date-user {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.line-to {
+  display: flex;
+  justify-content: start;
+  font-size: 14px;
+  align-items: center;
+}
+
+.line-to img {
+  padding-top: 8px;
+}
+
+.i-user {
+  color: white;
+  border-radius: 100%;
+  background-color: turquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+}
+
+.button-user {
+  margin-left: 20px;
+}
+
+.button-user button {
+  padding: 0;
+  margin-left: 12px;
+}
+
+.icon {
+  padding: 30px 0 30px 24px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.icon p {
+  color: grey;
+  padding: 0 10px;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.desc {
+  padding: 0 0 0 24px;
+}
+
+.desc p {
+  padding: 8px 0;
+}
+
+.container-desc {
+  margin-top: 10px;
+  padding: 2px 0;
+  background-color: turquoise;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  width: 320px;
+}
+
+.desc-2 {
+  margin: 20px 0 0 24px;
+  font-size: 14px;
+}
+
+.desc-2 span {
+  padding: 0;
+  color: blue;
+}
+
+.primary-desc2 {
+  margin-top: 14px;
+  color: blue;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: gray;
+  font-size: 10px;
+  padding: 20px 30px;
+}
+
+.end span {
+  padding: 0 2px;
+  text-decoration: underline gray;
+}
+
+.end h6 {
+  margin: 0px 0 12px 0;
+  font-size: 8px;
+  font-weight: 800;
+  color: black;
+}
+
+.desc-end {
+  margin-top: 10px;
+}
+
+.flex-end {
+  padding: 70px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-end div {
+  border: solid 1px gray;
+  padding: 10px 20px;
+  border-radius: 4px;
+  height: 60px;
+
+  font-size: 14px;
+}
+
+.flex-end-desc {
+  padding-top: 12px;
+}
+
+.flex-end-desc1 {
+  padding-top: 4px;
+}
+
+/* Sidebar */
+
+.navvv {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  padding: 10px 0 20px 0;
+}
+
+.navvv img {
+  padding-left: 14px;
+  padding-top: 4px;
+}
+
+.navvv h4 {
+  margin: 0 0 10px 0;
+}
+
+.navvv h5 {
+  margin: 0 0 2px 0;
+}
+
+.navvv p {
+  font-size: 11px;
+}
+
+.navvv1 {
+  padding-left: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  color: black;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+.sidebar header {
+  font-size: 22px;
+  color: white;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 70px;
+  background: #063146;
+  user-select: none;
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+  transition: 0.4s;
+}
+
+ul li:hover a {
+  /* padding-left: 50px; */
+  color: red;
+}
+
+.sidebar ul a i {
+  margin-right: 16px;
+}
+
+#check {
+  display: none;
+}
+
+label #btn,
+label #cancel {
+  position: absolute;
+  cursor: pointer;
+  background: #042331;
+  border-radius: 3px;
+}
+
+label #btn {
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: red;
+  padding: 6px 12px;
+  transition: all 0.5s;
+}
+
+label #cancel {
+  z-index: 111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  padding: 4px 9px;
+  transition: all 0.5s ease;
+}
+
+#check:checked ~ .sidebar {
+  left: 0;
+}
+
+#check:checked ~ label #btn {
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+  left: 195px;
+}
+
+ul {
+  padding: 0;
+}
