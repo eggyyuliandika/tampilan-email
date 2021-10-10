@@ -2,72 +2,72 @@ import Link from "next/link";
 
 const UserPage = () => {
   return (
-    <div className="body">
-      <div className="nav-account">
+    <div>
+      <div className="heading-user">
         <Link href="/">
           <button>
-            <img src="./close.png" height="14px" />
+            <img className="heading-user-close-icon" src="./close.png" />
           </button>
         </Link>
-        <img clasName="google-img" src="./google1.jpg" width="70px" />
+        <img src="./google1.jpg" className="heading-user-google-image" />
         <div></div>
       </div>
-      <div className="account">
-        <div className="user">
-          <div className="profile-user">
-            <img src="./camera1.png" height="20px" />
+      <div>
+        <div className="account-user">
+          <div className="account-user-profile">
+            <img src="./camera1.png" />
           </div>
-          <div className="desc-user">
-            <h5>Eggy Yuliandika</h5>
-            <p>eggyyuliandika@gmail.com</p>
+          <div>
+            <h3>Eggy Yuliandika</h3>
+            <p className="account-user-desc">eggyyuliandika@gmail.com</p>
           </div>
-          <p className="primarydesc-user">99+</p>
+          <p className="account-user-notification">99+</p>
         </div>
-        <h5 className="desc-account">Kelola Akun Google Anda</h5>
+        <h5 className="account-user-box-setting">Kelola Akun Google Anda</h5>
       </div>
-      <div className="user-next">
-        <div className="profile-user">
+      <div className="account-user-next">
+        <div className="account-user-profile">
           <img src="./camera1.png" height="20px" />
         </div>
-        <div className="desc-user">
-          <h5>Eggy Yuliandika</h5>
-          <p>eggyyuliandika@gmail.com</p>
+        <div>
+          <h3>Eggy Yuliandika</h3>
+          <p className="account-user-desc">eggyyuliandika@gmail.com</p>
         </div>
-        <p className="primarydesc-user">99+</p>
+        <p className="account-user-notification">99+</p>
       </div>
-      <div className="user-next">
-        <div className="profile-user">
+      <div className="account-user">
+        <div className="account-user-profile">
           <img src="./camera1.png" height="20px" />
         </div>
-        <div className="desc-user">
-          <h5>Eggy Yuliandika</h5>
-          <p>eggyyuliandika@gmail.com</p>
+        <div>
+          <h3>Eggy Yuliandika</h3>
+          <p className="account-user-desc">eggyyuliandika@gmail.com</p>
         </div>
-        <p className="primarydesc-user">54</p>
+        <p className="account-user-notification">99+</p>
       </div>
-      <div className="user-next">
-        <div className="profile-user">
-          <img src="./camera1.png" height="20px" />
+      <div className="account-user">
+        <div className="account-user-profile">
+          <img src="./camera1.png" />
         </div>
-        <div className="desc-user">
-          <h5>Eggy Yuliandika</h5>
-          <p>eggyyuliandika@gmail.com</p>
+        <div>
+          <h3>Eggy Yuliandika</h3>
+          <p className="account-user-desc">eggyyuliandika@gmail.com</p>
         </div>
-        <p className="primarydesc-user">39</p>
+        <p className="account-user-notification">99+</p>
       </div>
-      <div className="user-add">
+      <div className="account-user-button">
         <button>
-          <img src="./adduser.png" height="20px" />
+          <img className="account-user-button-icon" src="./adduser.png" />
         </button>
-        <p>Tambahkan akun lainnya</p>
+        <p className="account-user-button-desc">Tambahkan akun lainnya</p>
       </div>
-      <div className="user-add">
+      <div className="account-user-button">
         <button>
-          <img src="./usersetting.png" height="20px" />
+          <img className="account-user-button-icon" src="./usersetting.png" />
         </button>
-        <p>Kelola akun di perangkat ini</p>
+        <p className="account-user-button-desc">Kelola akun di perangkat ini</p>
       </div>
-      <div className="end-user">
+      <div className="account-user-flex-end">
         <p>Kebijakan Privasi</p>
         <p>.</p>
         <p>Persyaratan Layanan</p>

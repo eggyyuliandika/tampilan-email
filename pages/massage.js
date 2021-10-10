@@ -3,89 +3,92 @@ import Link from "next/link";
 const MassagePage = () => {
   return (
     <div>
-      <div className="navbar">
+      <div className="navbar-massage">
         <Link href="/">
           <button>
-            <img src="./back.png" height="20px" />
+            <img className="navbar-massage-icon" src="./back.png" />
           </button>
         </Link>
-        <div>
-          <button>
-            <img src="./arsip.png" height="20px" />
-          </button>
-          <button>
-            <img src="./trash.png" height="20px" />
-          </button>
-          <button>
-            <img src="./email.png" height="20px" />
-          </button>
-          <button>
-            <img src="./list.png" height="20px" />
-          </button>
-        </div>
+        <div></div>
+        <button>
+          <img className="navbar-massage-icon" src="./arsip.png" />
+        </button>
+        <button>
+          <img className="navbar-massage-icon" src="./trash.png" />
+        </button>
+        <button>
+          <img className="navbar-massage-icon" src="./email.png" />
+        </button>
+        <button>
+          <img className="navbar-massage-icon" src="./list.png" />
+        </button>
       </div>
-      <div className="navbar-desc">
+      <div className="content-massage">
         <div>
-          <p className="primarydesc-navbar">
+          <p className="desc-content-massage">
             ylndka_, kami sudah memudahkan untuk kembali ke Instagram
             <span>Kotak Masuk</span>
           </p>
         </div>
-        <img src="./star.png" height="20px" />
+        <img className="content-massage-star-icon" src="./star.png" />
       </div>
-      <div className="content-desc">
-        <p className="i-user">I</p>
-        <div className="content-desc-user">
-          <h4>
+      <div className="content-massage-sender">
+        <p className="content-massage-profile-sender">I</p>
+        <div>
+          <h3>
             Instagram
-            <span className="date-user">2 hari yang lalu</span>
-          </h4>
-          <p className="line-to">
+            <span className="content-massage-date-sender">26 Sep</span>
+          </h3>
+          <p className="content-massage-to-me">
             kepada saya
             <span>
-              <img src="./arrow.png" height="10px" />
+              <img
+                className="content-massage-to-me-arrow-icon"
+                src="./arrow.png"
+              />
             </span>
           </p>
         </div>
-        <div className="button-user">
-          <button>
-            <img src="./undo.png" height="20px" />
-          </button>
-          <button>
-            <img src="./list.png" height="20px" />
-          </button>
-        </div>
+        <button>
+          <img src="./undo.png" height="20px" />
+        </button>
+        <button>
+          <img src="./list.png" height="20px" />
+        </button>
       </div>
-      <div className="icon">
-        <img src="./instagram.png" height="20px" />
+      <div className="heading-content-massage">
+        <img className="heading-content-massage-logo" src="./instagram.png" />
         <p> | </p>
-        <img src="./logo instagram.png" width="auto" height="20px" />
+        <img
+          className="heading-content-massage-instagram"
+          src="./logo instagram.png"
+        />
       </div>
-      <div className="desc">
+      <div className="subdesc-content-massage">
         <p>Halo ylndka_,</p>
         <p>
           Tampaknya Anda mengalami masalah saat masuk Instagram. Kami dapat
           membantu Anda kembali ke akun Anda.
         </p>
-        <div className="container-desc">
+        <div className="subdesc-box-content-massage">
           <p>Masuk sebagai ylndka_</p>
         </div>
       </div>
-      <div className="desc-2">
+      <div className="primarydesc-content-massage">
         <p>
           Anda juga dapat mengatur <span>ulang kata sandi Instagram Anda.</span>
         </p>
-        <p className="primary-desc2">
+        <p className="primary-desc2-content-massage">
           Tidak ingin kami mengirimi Anda email seperti ini?
         </p>
       </div>
-      <div className="end">
+      <div className="descend-content-massage">
         <p>from</p>
         <h6>FACEBOOK</h6>
         <p>
           © Instagram. Facebook Inc., 1601 Willow Road, Menlo Park, CA 94025
         </p>
-        <p className="desc-end">
+        <p className="subdescend-content-massage">
           Pesan ini dikirimkan ke
           <span>eggyyuliandika@gmail.com</span>
           dan ditujukan untuk ylndka_. Bukan akun Anda?
@@ -93,18 +96,18 @@ const MassagePage = () => {
           dari akun ini.
         </p>
       </div>
-      <div className="flex-end">
-        <div>
+      <div className="flex-end-content-massage">
+        <div className="flex-end-box-content-massage">
           <img src="./undo.png" height="18px" />
-          <p className="flex-end-desc">Balas</p>
+          <p className="flex-end-box-desc-content-massage">Balas</p>
         </div>
-        <div>
+        <div className="flex-end-box-content-massage">
           <img src="./undo.png" height="18px" />
-          <p className="flex-end-desc1">Balas ke semua</p>
+          <p className="flex-end-box-desc1-content-massage">Balas ke semua</p>
         </div>
-        <div>
+        <div className="flex-end-box-content-massage">
           <img src="./undo.png" height="18px" />
-          <p className="flex-end-desc">Teruskan</p>
+          <p className="flex-end-box-desc-content-massage">Teruskan</p>
         </div>
       </div>
     </div>
